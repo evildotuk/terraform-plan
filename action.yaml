@@ -46,7 +46,7 @@ outputs:
 runs:
   using: docker
   image: docker://danielflook/terraform-github-actions:v1.9.1
-  entrypoint: /entrypoints/plan.sh
+  entrypoint: "/entrypoints/plan.sh"
 
 branding:
   icon: globe
